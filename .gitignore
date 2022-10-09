@@ -1,2 +1,5 @@
 #ignore .env
 .env
+
+#ignore gz files
+*.gz
