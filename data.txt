@@ -1,0 +1,31 @@
+match
+    has 10 players
+        has 1 champion
+        has kda
+        has # games played with champion
+        has role
+        has level (this is to remove afk games from data pool)
+        has objectives taken
+        has team
+    has winning team
+    has game length
+    has game version
+    has match id
+    
+
+champion
+    has average winrates at time intervals
+    has common positions x% top y% jg z% mid ...
+    has aoe ultimate
+    has average damage dealt at time intervals
+    has average damage mitigated and taken at time intervals
+    has average self healing at time intervals
+    has average ally healing at time intervals
+    has mtg colors?
+    has average winrate at different numbers of games played
+    has average kda
+    has objective prowess
+    has average turrets destroyed, and/or damage to structures
+    has damage type split (physical%, magical%)
+    has range
+    has number of cc abilities?
