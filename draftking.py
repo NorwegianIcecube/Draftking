@@ -5,9 +5,13 @@ import cassiopeia as cass
 import pandas as pd
 import json
 import cassiopeia_championgg as cassgg
+from dotenv import load_dotenv
+import os
 
-#api key
-cass.set_riot_api_key("RGAPI-2e745330-02e5-41bb-b777-aa493d7b6aab")
+load_dotenv()
+
+# Set up Riot API key
+api_key = os.getenv("RIOT_API_KEY")
 
 #champion class
 class Champion:
